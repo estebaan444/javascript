@@ -1,5 +1,7 @@
 
 // //6
+// const bigint = 5.678;
+// var num = 1234;
 // console.log(num + bigint);
 // console.log(num - bigint);
 // console.log(num / bigint);
