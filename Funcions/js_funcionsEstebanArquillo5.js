@@ -17,7 +17,7 @@ Vocales();
 //     const count = str.match(/[aeiou]/gi).length;
 //     return count;
 // }
-// const string = 'hola que tal bon dia senyor'
+// const string = 'hola que tal com estas?'
 // const resultat = vocal(string)
 // console.log(resultat)
 
