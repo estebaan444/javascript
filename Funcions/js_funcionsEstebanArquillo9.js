@@ -3,3 +3,5 @@ var suma = function(a,b){
     return true
     }
 }
+
+console.log(suma(15,15));
