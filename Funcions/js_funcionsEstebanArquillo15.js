@@ -1,9 +1,8 @@
-var pos = (a, b) => {
-    return (a.length - a.indexOf(b));
-}
-console.log(posicio('Es divendres', 'que tal'));
+var f1 = (x) => x + x + x;
+console.log(f1(2));
 
-var dividir = (a, b) => {
-    return b.substr(a, b.length);
-}
-console.log(dividir(posicio('Es divendres', 'que tal'), 'Hey'));
+//suma 3 vegades 2
+
+var f2 = (p, n, r, t) => p * Math.pow(1 + (r / n), n * t);
+console.log(f2(4,1,4,8));
+//2*(1 elevat a 4/1),1*8
