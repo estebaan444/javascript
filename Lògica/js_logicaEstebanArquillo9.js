@@ -1,9 +1,8 @@
-let result = '';
 let i = 0;
-
 do {
-  i = i + 1;
-  result = result + i;
-} while (i < 5);
+  i++;
+  if(i%3 == 0 && i%5 == 0){
+    console.log(i = i+i);
+  }
+} while (i < 1000);
 
-console.log(result);
