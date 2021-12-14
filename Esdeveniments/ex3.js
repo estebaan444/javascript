@@ -1,7 +1,5 @@
-document.onkeydown=function(r){
-    document.getElementById("letra").innerHTML=r.key;
+document.onkeydown = function (Tecla) {
+    acumulador = acumulador + Tecla.key;
+    document.getElementById("lletra").innerHTML = acumulador;
 }
-
-document.onkeyup=function(r){
-    document.getElementById("letra").innerHTML=" ";
-}
+let acumulador = '';
