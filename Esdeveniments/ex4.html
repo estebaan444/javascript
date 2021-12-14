@@ -1,0 +1,31 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>EX4</title>
+    <style type="text/css">
+        #contador {
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body style="text-align: center; background-color: darkcyan;">
+    <button id="click">Click</button>
+    <p id="contador"></p>
+    <script type="text/javascript">
+        var boton = document.getElementById("click");
+        var element = document.getElementById("contador");
+        var contador = 0;
+        boton.onclick = function () {
+            contador++;
+            element.textContent = contador;
+        }
+    </script>
+    <script>
+        var a = document.getElementById("idElemento");
+        a.onclick = function () {
+        }
+        a.onmouseover = function () {
+        }
+    </script>
+</body>
+</html>
