@@ -1,7 +1,8 @@
-document.onkeydown=function(r){
-    document.getElementById("letra").innerHTML=r.key;
-}
+let combinacio = '';
 
-document.onkeyup=function(r){
-    document.getElementById("letra").innerHTML=" ";
+document.onkeydown=function(y){
+    combinacio += y.key;
+
+    if(combinacio=="qwerty")
+        window.open(url="https://www.youtube.com/watch?v=RCA3EfKUJMw%22")
 }
