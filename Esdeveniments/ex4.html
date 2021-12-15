@@ -10,15 +10,21 @@
 </head>
 <body style="text-align: center; background-color: darkcyan;">
     <button id="click">Click</button>
+    <button id="reset">Reset</button>
     <p id="contador"></p>
     <script type="text/javascript">
         var boton = document.getElementById("click");
+        var boton_reset = document.getElementById("reset");
         var element = document.getElementById("contador");
         var contador = 0;
         boton.onclick = function () {
             contador++;
             element.textContent = contador;
         }
+        boton_reset.onclick=function(){
+            contador = 0;
+        }
+
     </script>
     <script>
         var a = document.getElementById("idElemento");
